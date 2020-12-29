@@ -1,21 +1,9 @@
 @import url("https://discordstyles.github.io/HorizontalServerList/base.css");
-@import url("https://discordstyles.github.io/RadialStatus/base.css");
 @import url("https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/source.css");
 :root {
 /*Horizontal Server list*/
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
-/*Radial status*/
-  --rs-small-spacing: 2px;  /* spacing between avatar and status */
-  --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles */
-  --rs-width: 2px;  /* Width/thickness of status border */
-  --rs-avatar-shape: 20%;  /* 50% for round - 0% for square */
-  --rs-online-color: #43b581;  /* color for online status */
-  --rs-idle-color: #faa61a;  /* color for idle status */
-  --rs-dnd-color: #f04747;  /* color for dnd status */
-  --rs-offline-color: #636b75;  /* color for offline status */
-  --rs-streaming-color: #643da7;  /* color for streaming status */
-  --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
 /*Channels Indicators*/
   --unread-badge: rgba(255, 255, 255, 0.6);
   --unread-bg: rgba(255, 255, 255, 0.01);
@@ -55,12 +43,6 @@
 	display: none;
 }
 
-.avatarWrapperNormal-3wFMbf {
-	position: relative;
-    right: 70px;
-}
-
-
 .avatar-1BDn8e.clickable-1bVtEA { 
     filter: drop-shadow(0 0 3px);
     color: var(--dark-color);
@@ -99,4 +81,26 @@
     content: "<";
     font-size: 24px;
     margin: 0 8px;
+}
+
+
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0 {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr .7fr;
+    grid-template-areas:
+        "avatar name"
+        "status status";
+}
+.avatarWrapper-3H_478 {
+    margin-bottom: 0px;
+    grid-area: avatar;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 {
+    grid-area: name;
+}
+.customStatus-1bh2V9 {
+    grid-area: status;
 }

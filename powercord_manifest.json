@@ -1,0 +1,9 @@
+{
+    "name": "Cleaner disocrd",
+    "description": "Darn... It's going to be even more clean...",
+    "version": "1.0.0",
+    "author": "Muffina#6306",
+    "theme": "index.css",
+    "consent": "false",
+    "license": "MIT"
+}

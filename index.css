@@ -84,23 +84,27 @@
 }
 
 
-.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0 {
-    align-items: center;
-    justify-content: center;
+.headerTop-3C2Zn0 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0fr .7fr;
-    grid-template-areas:
-        "avatar name"
-        "status status";
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "avatar info" "status status" "last last" "join join" "date date" "badges badges";
+    align-items: center;
+    justify-content: flex-start;
 }
-.avatarWrapper-3H_478 {
-    margin-bottom: 0px;
-    grid-area: avatar;
-}
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 {
-    grid-area: name;
+.avatarWrapperNormal-3wFMbf {
+    margin: 0;
+    margin-right: 8px;
 }
 .customStatus-1bh2V9 {
     grid-area: status;
+    text-align:left;
+}
+
+.sidebarRegionScroller-3MXcoP {
+	background: var(--dark-color);
+	
+}
+
+.theme-dark .children-19S4PO:after {
+	display:none;
 }

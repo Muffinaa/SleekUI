@@ -1,2 +1,2 @@
-# CleanerDiscord
+# SleekUI
 :sunglasses:

@@ -1,4 +1,4 @@
-# Name Badges
+# Sleek UI
 Some nice custom badges for next to usernames. If you want your own custom one, please read https://github.com/LuckFire/NameBadges#badge-request.
 
 ## Previews

@@ -1,0 +1,43 @@
+//Imports
+@use "./src/popup.css";
+@use "./src/better-connections.scss";
+@use "./src/topbar.scss";
+@use "./src/badcode.scss";
+@use "./src/prefixes.css";
+
+
+:root {
+  /* theme color palette */
+  --SleekUI-primary: rgb(39, 41, 39);
+  --SleekUI-secondary: #212421;
+  --SleekUI-secondary-alpha: rgba(36, 38, 49, 0.9);
+  --SleekUI-teritary: #20222c;
+  --SleekUI-teritary-alpha: rgba(32, 34, 44, 0.6);
+  --SleekUI-primary-light: #44475a;
+  --SleekUI-accent: #bd93f9;
+  --SleekUI-accent-alpha: rgba(189, 147, 249, 0.2);
+  --SleekUI-accent-alpha-alt: rgba(189, 147, 249, 0.35);
+  --SleekUI-accent-alpha-alt2: rgba(189, 147, 249, 0.5);
+  --SleekUI-accent-dark: #7b49c0;
+  --SleekUI-accent-light: #d4b5ff;
+
+
+  /* discord variables*/
+  --background-primary: var(--SleekUI-primary);
+  --background-secondary: var(--SleekUI-secondary);
+  --background-secondary-alt: var(--SleekUI-secondary);
+  --background-tertiary: var(--SleekUI-secondary);
+  --background-accent: var(--SleekUI-accent);
+  --scrollbar-thumb: var(--SleekUI-primary-light);
+  --scrollbar-thin-thumb: var(--SleekUI-primary-light);
+  --scrollbar-auto-scrollbar-color-thumb: var(--SleekUI-primary-light);
+  --scrollbar-auto-track: var(--SleekUI-primary);
+  --scrollbar-auto-scrollbar-color-track: var(--SleekUI-primary);
+  --scrollbar-auto-thumb: var(--SleekUI-primary-light);
+  --text-link: var(--SleekUI-accent);
+  --focus-primary: var(--SleekUI-accent);
+  --background-modifier-accent: var(--SleekUI-teritary);
+  --header-primary: var(--SleekUI-accent);
+  --background-floating: var(--SleekUI-secondary);
+
+}

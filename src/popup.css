@@ -1,0 +1,77 @@
+.headerTop-3C2Zn0 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "avatar info" "status status" "last last" "join join" "date date" "badges badges";
+    align-items: center;
+    justify-content: flex-start;
+}
+.avatarWrapperNormal-3wFMbf {
+    margin: 0;
+    margin-right: 8px;
+}
+.customStatus-1bh2V9 {
+    grid-area: status;
+    text-align:left;
+}
+.tabBarContainer-1s1u-z,
+.activity-1ythUs,
+.activity-11LB_k{
+    background-color: rgb(40,40,40) !important;
+}
+.header-QKLPzZ,
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.headerTop-3C2Zn0{
+    background-color: rgb(45,45,45) !important;
+}
+
+.gameIcon-_0rmMm{
+    color: white !important;
+}
+.theme-dark .footer-2gL1pp,
+.modalContent-N6GsWH {
+    background-color:  var(--SleekUI-primary);
+}
+
+.header-3nFfBB{
+    background-color: var(--SleekUI-secondary);
+}
+
+#app-mount > div:nth-child(7) > div.modal-3c3bKg > div > form > div > div > div > div > div {
+    background-color: var(--SleekUI-secondary);
+    margin-bottom: 0px;    
+}
+
+
+.role-2irmRk {
+    background-color: var(--background-tertiary);
+    border-radius: 4px;
+    border: none;
+    padding: 0 5px 0 8px;
+    height: 25px;
+}
+.role-2irmRk.actionButton-VzECiy {
+    background-color: var(--background-tertiary);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.role-2irmRk .roleCircle-3xAZ1j {
+    margin-right: 6px;
+    width: 9px;
+    height: 9px;
+}
+
+.jumpToPresentBar-G1R9s6{background-color: var(--SleekUI-accent-dark);}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background-color: var(--SleekUI-accent-dark) !important;
+    color: white !important;
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover,
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover,
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background-color: #57328b !important;
+    color: white !important;
+}
+

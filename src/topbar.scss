@@ -1,0 +1,96 @@
+//topbar credits to Pavol#0296 for making toolbar
+
+
+.wordmarkWindows-1v0lYD{display: none}
+
+.iconWrapper-2OrFZ1[aria-label="Inbox"],
+.iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
+.iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
+.iconWrapper-2OrFZ1[aria-label="Mute channel showcase"],
+.iconWrapper-2OrFZ1[aria-label="Help"],
+.iconWrapper-2OrFZ1[aria-label="Direct Message"],
+.iconWrapper-2OrFZ1[aria-label="Announcement Channel"],
+.theme-light .children-19S4PO:after,
+.theme-dark .children-19S4PO:after {
+    display:none;
+}
+.container-1r6BKw.themed-ANHk51,
+.searchBar-3dMhjb,
+.input-2A_zIr:focus {
+background-color: var(--background-extra);
+}
+.searchBar-3dMhjb:hover {
+    background-color: #f0f4ff;
+    border: solid 2px rgb(190, 190, 190);
+}
+.search-2oPWTC .searchBar-3dMhjb {width:25px;transition-duration:600ms;}
+.search-2oPWTC .searchBar-3dMhjb:hover {width:250px !important;}
+.search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {width: 220px !important;}
+
+.clickable-3rdHwn .icon-22AiRD,
+.icon-3cZ1F_,
+.input-2A_zIr {
+    color: white !important;
+}
+.cursorPonter-YEp76E,
+.title-29uC1r {
+    font-size:25px;
+    height:30px;
+}
+.toolbar-1t6TWx {
+    margin-right:85px;
+}
+.toolbar-1t6TWx:last-child {
+    border-right:solid 1.5px rgba(255, 255, 255, 0.562);
+}
+
+
+
+.winButton-iRh8-Z > svg {
+    display: none;
+ }
+ .withFrame-haYltI {
+     position: relative;
+     top:16px;
+     margin-top:-17px;
+     height:15px;
+
+ }
+ .winButton-iRh8-Z:hover {
+    background-color: var(--background-teritary);
+ }
+ .winButton-iRh8-Z {
+    pointer-events: none;
+    position: relative;
+    top:12px;
+    right:5px;
+    margin-left: -3px;
+ }
+ 
+ .winButton-iRh8-Z::after {
+    content: "";
+    padding: 7px;
+    border-radius: 50px;
+    pointer-events: fill;
+ }
+ .winButtonClose-1HsbF- {
+    margin-right: 3px;
+ }
+ .winButtonClose-1HsbF-::after {
+    background-color: #FF605C;
+ }
+ .winButtonClose-1HsbF-:hover::after {
+    background-color: rgba(255, 96, 92, 0.5);
+ }
+ .winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
+    background-color: #FFBD44;
+ }
+ .winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover::after {
+    background-color: rgba(255, 189, 68, 0.5);
+ }
+ .winButtonMinMax-PBQ2gm[aria-label="Minimize"]::after {
+    background-color: #00CA4E;
+ }
+ .winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover::after {
+    background-color: rgba(0, 202, 78, 0.5);
+ }

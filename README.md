@@ -10,4 +10,4 @@ cd powercord/src/Powercord/themes && git clone https://github.com/Muffinaa/Sleek
 
 ## Credits 
 
-Everyone that helped me on powercord server
+Everyone that helped me on #themes
